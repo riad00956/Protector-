@@ -5,8 +5,8 @@ import time
 from aiohttp import web, ClientSession
 from data import load_db, save_db, is_admin, save_target, is_maintenance, set_maintenance, stop_maintenance
 
-TOKEN = ""
-SUPER_ADM8000160699:AAF5ifoKw13-NgtuKzy00Yo9Zg18KgkI5tIIN = 7832264582
+TOKEN = "8000160699:AAF5ifoKw13-NgtuKzy00Yo9Zg18KgkI5tIIN"
+SUPER_ADMIN= 7832264582
 API = f"https://api.telegram.org/bot{TOKEN}"
 
 # Inline Admin Panel settings
